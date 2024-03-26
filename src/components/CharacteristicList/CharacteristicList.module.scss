@@ -1,0 +1,63 @@
+.characteristicList {
+  margin-bottom: 20px;
+}
+
+.form {
+  &__field {
+    text-align: center;
+    border-color: transparent;
+    outline: none;
+
+    &--error {
+      color: red;
+      border: 1px solid red;
+    }
+
+    @media (width <= 895px) {
+      max-width: 80px;
+    }
+
+    @media (width <= 576px) {
+      max-width: 100px;
+    }
+
+    @media (width <= 400px) {
+      max-width: 80px;
+    }
+  }
+}
+
+.button {
+  cursor: pointer;
+  user-select: none;
+
+  display: block;
+
+  margin: 0 auto;
+  padding: 20px;
+
+  font-weight: 600;
+
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+  }
+
+  @media (hover: hover) {
+    &:hover#{&}:not(&:disabled) {
+      background-color: #dfdede;
+    }
+  }
+
+  @media (width <= 576px) {
+    margin: 0;
+  }
+}

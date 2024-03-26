@@ -1,0 +1,12 @@
+.trainList {
+  &__row {
+    &:hover {
+      cursor: pointer;
+      background-color: #eee;
+    }
+
+    &--active {
+      background-color: #eee;
+    }
+  }
+}

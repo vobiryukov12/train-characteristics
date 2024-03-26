@@ -1,0 +1,67 @@
+@import 'modern-normalize/modern-normalize.css';
+
+$width-container: 1200px;
+$gap-container: 20px;
+
+html,
+body {
+  scrollbar-gutter: stable;
+}
+
+body {
+  background-color: #eee;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 100%;
+  max-width: $width-container + 2 * $gap-container;
+  margin-right: auto;
+  margin-left: auto;
+  padding: $gap-container;
+}
+
+table {
+  border-collapse: collapse;
+
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #c6c6c6;
+
+    @media (width <= 896px) {
+      padding: 5px;
+    }
+
+    @media (width <= 613px) {
+      text-align: center;
+    }
+  }
+
+  th {
+    padding: 10px;
+    background-color: #dcdada;
+
+    @media (width <= 895px) {
+      padding: 5px;
+    }
+  }
+
+  caption {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+
+    @media (width <= 895px) {
+      text-align: left;
+    }
+  }
+
+  @media (width <= 613px) {
+    width: 100%;
+  }
+}
