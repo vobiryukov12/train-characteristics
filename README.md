@@ -1,5 +1,18 @@
 # train-characteristics
 
+```
+node: 20.x
+npm: 10.x
+```
+Установите зависимости:
+```
+npm install
+```
+Запуск:
+```
+npm run dev
+```
+
 ### Ссылка на прототип:
 
 [store-cart-vobiryukov12.vercel.app](https://store-cart-vobiryukov12.vercel.app/)
@@ -11,7 +24,7 @@
 [![Skills](https://skillicons.dev/icons?i=react,ts,redux,scss,vite)](https://skillicons.dev)
 
 ### В проекте используется:
-- Данные поздов из API
+- Данные поездов из API
 - Redux Toolkit для хранения состояния
 - Vite для сборки
 - Typescript
