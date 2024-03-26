@@ -45,7 +45,7 @@ export function CharacteristicList({ scrollToRef }: ICharacteristicListProps) {
   }
 
   const speedAndEngineAmperageReg = /^[1-9]\d*$/
-  const forceReg = /^(0|[1-9]\d*)\.\d*[1-9]$/
+  const forceReg = /^(?!0\.0$)(0|[1-9]\d*)\.\d*([1-9]|0)$/
 
   useEffect(() => {
     reset()
