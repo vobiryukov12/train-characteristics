@@ -15,7 +15,8 @@ npm run dev
 
 ### Ссылка на прототип:
 
-[store-cart-vobiryukov12.vercel.app](https://store-cart-vobiryukov12.vercel.app/)
+[train-characteristics-vobiryukov12.vercel.app](https://train-characteristics-vobiryukov12.vercel.app/)
+
 
 ## Описание
 Мини-приложение на React для отображения и редактирования информации о поездах
